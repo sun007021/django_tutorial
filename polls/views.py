@@ -5,6 +5,7 @@ from django.http import Http404
 from django.urls import reverse
 from django.db.models.expressions import F
 from django.views import generic
+from django.utils import timezone
 
 
 class IndexView(generic.ListView):
